@@ -4,3 +4,6 @@ plugins:
 
 title: BirdOne
 description: Official BirdOne Website
+
+github:
+  is_project_page: false
