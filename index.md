@@ -4,7 +4,19 @@
 
 # BirdOne
 
-Test
+Building for the future
+
+> BirdOne is a new company that combines all Bird services together into one, providing a more magical experience for our customers.
+
+# Our Services
+
+## MonteSmart
+MonteSmart is an online learning community that teaches cool stuff about technology, including AI, Python, TurboWarp and more.<br>
+[Join Now](https://line.me/ti/g2/ZEVrNcb76N2PQJKK2RGqskWAxkyWWKLwWsWR1w)
+
+## Bird Web 
+Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed BirdWeb and connects to each other, the two sites make a great pair for your browsing needs.<br>
+**Bird Web is temporarily closed.**
 
 <hr>
 <sub>BirdOne</sub>
