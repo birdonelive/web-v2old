@@ -7,7 +7,7 @@
 Test
 
 <hr>
-<footer>BirdOne</footer>
+<div class="bottom">BirdOne</div>
 
 <!--
 <link rel="stylesheet" href="style.css">
