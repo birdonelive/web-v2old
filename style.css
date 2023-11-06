@@ -3,3 +3,7 @@
 body {
   font-family: Inter, Arial, sans-serif
 }
+
+.page-header {
+  background-image: linear-gradient(120deg, #90f, #3c0, #f0a);
+}
