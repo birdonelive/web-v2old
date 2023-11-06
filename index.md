@@ -19,4 +19,4 @@ Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed 
 **Bird Web is temporarily closed.**
 
 <hr>
-<sub>&copy; BirdOne - v2 Beta Build 1</sub>
+<sub>&copy; BirdOne - v2 Beta 1.1</sub>
