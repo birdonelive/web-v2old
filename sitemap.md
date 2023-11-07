@@ -5,9 +5,9 @@
 # BirdOne Site Map
 
 # Main Pages
-🏠 [Homepage](../)<br>
-🧑‍💻 [MonteSmart](../montesmart)<br>
-🦜 [Bird Web](../birdweb)<br>
+🏠 [Homepage](..)<br>
+🧑‍💻 [MonteSmart](montesmart)<br>
+🦜 [Bird Web](birdweb)<br>
 📸 [BPSC Contest](../bpsc)<br>
 
 # BirdOne Website v2
@@ -24,4 +24,4 @@
 > Note: Most of these pages are under construction
 
 <hr>
-<sub>&copy; BirdOne - v2 Beta 1.2</sub>
+<sub>&copy; BirdOne - v2 Beta 1.3</sub>
