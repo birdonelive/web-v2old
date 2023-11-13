@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 
 title: BirdOne
-description: Official BirdOne Website
+description: BirdOne.click || Official BirdOne Website
 
 github:
   is_project_page: false

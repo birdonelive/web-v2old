@@ -2,7 +2,7 @@
 
 # Main Pages
 🏠 [Homepage](index)<br>
-🧑‍💻 [MonteSmart](montesmart)<br>
+👨‍💻 [MonteSmart](montesmart)<br>
 🦜 [Bird Web](birdweb)<br>
 📸 [BPSC Contest](bpsc)<br>
 
@@ -15,6 +15,9 @@
 🦜 [Bird Web Homepage](birdweb/)<br>
 🔄 [Monte Central](birdweb/montecen)<br>
 😄 [Ampion.tk](birdweb/ampiontk)<br>
+
+# Others
+🎥 [Jaturamitr Movie Posters](jtr)<br>
 <br>
 
 > Note: Most of these pages are under construction
