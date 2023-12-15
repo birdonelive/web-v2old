@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simon Game</title>
+    <style>
+      #game-board {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+      }
+      .button {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      #red {
+        background-color: red;
+      }
+      #green {
+        background-color: green;
+      }
+      #blue {
+        background-color: blue;
+      }
+      #yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-board">
+      <div class="button" id="red"></div>
+      <div class="button" id="green"></div>
+      <div class="button" id="blue"></div>
+      <div class="button" id="yellow"></div>
+    </div>
+    <script>
+const gameBoard = document.getElementById('game-board');
+const buttons = document.querySelectorAll('.button');
+const sounds = {
+  red: new Audio('red.mp3'),
+  green: new Audio('green.mp3'),
+  blue: new Audio('blue.mp3'),
+  yellow: new Audio('yellow.mp3'),
+};
+const sequence = [];
+let currentIndex = 0;
+
+function getRandomButton() {
+  const index = Math.floor(Math.random() * buttons.length);
+  return buttons[index];
+}
+
+function playButton(button) {
+  button.classList.add('active');
+  sounds[button.id].play();
+  setTimeout(() => {
+    button.classList.remove('active');
+  }, 500);
+}
+
+function playSequence() {
+  sequence.forEach((button, index) => {
+    setTimeout(() => {
+      playButton(button);
+    }, index * 1000);
+  });
+}
+
+function addButtonToSequence() {
+  const button = getRandomButton();
+  sequence.push(button);
+  playSequence();
+  currentIndex = 0;
+}
+
+function handleButtonClick(e) {
+  if (buttons[currentIndex] === e.target) {
+    playButton(e.target);
+    currentIndex++;
+    if (currentIndex === sequence.length) {
+      addButtonToSequence();
+    }
+  } else {
+    alert('Game over!');
+    sequence.length = 0;
+    currentIndex = 0;
+  }
+}
+
+buttons.forEach((button) => {
+  button.addEventListener('click', handleButtonClick);
+});
+
+addButtonToSequence();
+
+</script>
+  </body>
+</html>

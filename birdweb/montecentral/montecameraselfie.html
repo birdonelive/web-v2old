@@ -1,0 +1,42 @@
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Take a Picture</title>
+    <h1>Monte's Camera (selfie)</h1>
+    <a href="./">Go Back To Home Page</a>
+  </head>
+  <body>
+    <video id="video" width="640" height="480" autoplay></video>
+    <button id="snap">Snap Photo</button>
+    <button id="save">Save Photo</button>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <script>
+      let video = document.getElementById("video");
+      let canvas = document.getElementById("canvas");
+      let context = canvas.getContext("2d");
+      let snapButton = document.getElementById("snap");
+      let saveButton = document.getElementById("save");
+
+      navigator.mediaDevices.getUserMedia({ video: true, audio: false })
+        .then(function(stream) {
+          video.srcObject = stream;
+          video.play();
+        })
+        .catch(function(err) {
+          console.log("An error occurred: " + err);
+        });
+
+      snapButton.addEventListener("click", function() {
+        context.drawImage(video, 0, 0, 640, 480);
+      });
+
+      saveButton.addEventListener("click", function() {
+        let imageData = canvas.toDataURL("image/png");
+        let link = document.createElement("a");
+        link.download = "image.png";
+        link.href = imageData;
+        link.click();
+      });
+    </script>
+  </body>
+</html>

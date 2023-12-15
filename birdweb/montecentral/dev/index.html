@@ -1,0 +1,22 @@
+<html>
+   <link rel="stylesheet" href="style.css">
+  <head>
+    <div class="square2"></div>
+    <div class="square">
+    <title>Dev-Only</title>
+    <h1>Monte Central Dev Only</h1>
+    <p>type the correct password to visit the website</p>
+    <a href="../">go back to home page</a> 
+  <button onclick="checkInput()">Enter Correct Password</button>
+       </head>
+<script>
+    function checkInput() {
+        var input = prompt("Please enter the correct password:");
+        if (input == "ampion") {
+            window.location.href = "/montetesting/dev/devonly";
+        } else {
+          alert('NAHHH')
+        }
+    }
+</script>
+</html>
