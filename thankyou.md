@@ -1,1 +1,15 @@
 # Thank you
+Thank you for purchasing our products and supporting BirdOne's mission.
+
+<hr>
+<sub id="ftr"></sub>
+<script>
+  fetch('/src/version')
+    .then(response => response.text())
+    .then(content => {
+      document.getElementById('ftr').innerHTML = content;
+    });
+</script>
+
+<link rel="stylesheet" href="style.css">
+<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer"); setTimeout(() => { x[0].remove(); }, 10); </script> <!-- Hide Footer -->
