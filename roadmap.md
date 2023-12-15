@@ -2,18 +2,18 @@
 (Staff Only)
 
 ## Pages
-|Status| Page                    |
-|-----|--------------------------|
-| ✅ | Homepage                 |
-| 🚧 | MonteSmart               |
-| 🚧 | Bird Web                 |
-| 🚧 | BPSC Contest             |
-|     | v2 Upgrade               |
-|     | Why v2?                  |
-| ✅ | Release Logs             |
-| 🚧 | Bird Web Homepage        |
-|     | Monte Central            |
-|     | Ampion.tk                |
+| Status 	| Page              	|
+|--------	|-------------------	|
+| ✅      	| Homepage          	|
+| 🚧      	| MonteSmart        	|
+| 🚧      	| Bird Web          	|
+| 🚧      	| BPSC Contest      	|
+|        	| v2 Upgrade        	|
+|        	| Why v2?           	|
+| ✅      	| Release Logs      	|
+| 🚧      	| Bird Web Homepage 	|
+|        	| Monte Central     	|
+|        	| Ampion.tk         	|
 
 <sub id="ftr"></sub>
 <script>
