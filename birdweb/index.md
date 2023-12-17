@@ -28,5 +28,5 @@ Select your desired page.
     }
 </style>
 
-<a href="./ampiontk" class="atk">Ampion.tk</a><br><br>
-<a href="./montecentral" class="mtc">MonteCentral</a>
+<a href="ampiontk" class="atk">Ampion.tk</a><br><br>
+<a href="montecentral" class="mtc">MonteCentral</a>
