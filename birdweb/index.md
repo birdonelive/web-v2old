@@ -1,5 +1,5 @@
 # Welcome to Bird Web!
 Select your desired page.
 
-[Ampion.tk](/birdweb/ampiontk/index.md)<br>
-[MonteCentral](/birdweb/montecentral/index.md)
+[Ampion.tk](http://v2.birdone.click/birdweb/ampiontk/index)<br>
+[MonteCentral](http://v2.birdone.click/birdweb/montecentral/index)
