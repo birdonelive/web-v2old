@@ -15,13 +15,6 @@ Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed 
 **Bird Web is temporarily closed.**
 
 <hr>
-<sub id="ftr"></sub>
-<script>
-  fetch('/src/version')
-    .then(response => response.text())
-    .then(content => {
-      document.getElementById('ftr').innerHTML = content;
-    });
-</script>
+<sub id="ftr">&copy; BirdOne - v2 Alpha 3</sub>
 
 <link rel="stylesheet" href="style.css">
