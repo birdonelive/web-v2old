@@ -1,0 +1,40 @@
+<button id="start-recording">Start Recording</button>
+<button id="stop-recording">Stop Recording</button>
+<audio id="recorded-audio" controls></audio>
+
+<script>
+    var startRecordingButton = document.getElementById('start-recording');
+    var stopRecordingButton = document.getElementById('stop-recording');
+    var recordedAudio = document.getElementById('recorded-audio');
+
+    startRecordingButton.addEventListener('click', function() {
+        // Access the user's microphone
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(function(stream) {
+                // Create an AudioContext to handle the audio stream
+                var audioContext = new AudioContext();
+                var source = audioContext.createMediaStreamSource(stream);
+                var recorder = new MediaRecorder(source);
+
+                // Start recording
+                recorder.start();
+
+                // Handle the dataavailable event to save the recorded audio as a file
+                recorder.addEventListener('dataavailable', function(e) {
+                    recordedAudio.src = URL.createObjectURL(e.data);
+                });
+
+                // Stop recording when the stop button is clicked
+                stopRecordingButton.addEventListener('click', function() {
+                    recorder.stop();
+                    stream.getTracks().forEach(function(track) {
+                        track.stop();
+                    });
+                });
+            })
+            .catch(function(err) {
+                console.log('Error accessing microphone: ' + err);
+            });
+    });
+
+</script>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+       a {
+      text-align: center;
+      display: block;
+      }
+       h1 {
+      text-align: center;
+      }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Monte Vibing</title>
+  <h1>Monte's Vibing</h1>
+  <a href="../">Go Back To Home Page</a>
+</head>
+<body>
+  <script>
+    setInterval(() => {
+      const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+      document.body.style.backgroundColor = randomColor;
+    }, 1000);
+  </script>
+</body>
+</html>

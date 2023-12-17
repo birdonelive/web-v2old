@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <h1>Monte's Rock Paper Scissor!!1!1</h1>
+    <a href="./">Go Back To Home Page</a>
+  </head>
+  <body>
+    <div class="square2"></div>
+    <div class="center">
+      <div class="square">
+    <div class="container">
+      <div class="choices">
+        <div class="choice" onclick="play('rock')">
+          Rock🪨
+        </div>
+        <div class="choice" onclick="play('paper')">
+          Paper📜
+        </div>
+        <div class="choice" onclick="play('scissors')">
+          Scissors✂️
+        </div>
+      </div>
+      <div class="result">
+        Make a selection to play.
+      </div>
+      <div class="scores">
+        Wins: <span id="wins">0</span> Losses: <span id="losses">0</span> Ties: <span id="ties">0</span>
+      </div>
+    </div>
+    <script>
+      let wins = 0;
+      let losses = 0;
+      let ties = 0;
+
+      function play(userChoice) {
+        const choices = ['rock', 'paper', 'scissors'];
+        const computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+        let result;
+        if (userChoice === computerChoice) {
+          result = 'Tie';
+          ties++;
+        } else if (
+          (userChoice === 'rock' && computerChoice === 'scissors') ||
+          (userChoice === 'paper' && computerChoice === 'rock') ||
+          (userChoice === 'scissors' && computerChoice === 'paper')
+        ) {
+          result = 'Win';
+          wins++;
+        } else {
+          result = 'Loss';
+          losses++;
+        }
+
+        document.querySelector('.result').innerHTML = `You chose ${userChoice}, the computer chose ${computerChoice}. You ${result}!`;
+        document.querySelector('#wins').innerHTML = wins;
+        document.querySelector('#losses').innerHTML = losses;
+        document.querySelector('#ties').innerHTML = ties;
+      }
+    </script>
+  </body>
+</html>

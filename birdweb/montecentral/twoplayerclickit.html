@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Clicker Game</title>
+    <div class="square2"></div>
+    <h1>Monte's Two Players Game CLICK IT!</h1>
+    <p>click the circle to get a score who get the most win!</p>
+    <a href="./">Go Back To Home Page</a>
+    <style>
+      #circle1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: black;
+        display: inline-block;
+      }
+      #circle2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: black;
+        display: inline-block;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square2"></div>
+    <div id="circle1"></div>
+    <div id="circle2"></div>
+    <p>Circle 1 clicks: <span id="counter1">0</span></p>
+    <p>Circle 2 clicks: <span id="counter2">0</span></p>
+    <p>Time remaining: <span id="timer">30</span> seconds</p>
+    <script>
+      var circle1 = document.getElementById("circle1");
+      var circle2 = document.getElementById("circle2");
+      var counter1 = document.getElementById("counter1");
+      var counter2 = document.getElementById("counter2");
+      var timer = document.getElementById("timer");
+      var intervalId;
+      
+      var clicks1 = 0;
+      var clicks2 = 0;
+
+      circle1.addEventListener("click", function() {
+        clicks1++;
+        counter1.innerHTML = clicks1;
+      });
+      
+      circle2.addEventListener("click", function() {
+        clicks2++;
+        counter2.innerHTML = clicks2;
+      });
+
+      
+      function startTimer() {
+        var time = 30;
+        timer.innerHTML = time;
+        intervalId = setInterval(function() {
+          time--;
+          timer.innerHTML = time;
+          if (time === 0) {
+            clearInterval(intervalId);
+            if(clicks1>clicks2)
+                alert("player 1 wins")
+            else
+                alert("Player 2 wins")
+          }
+        }, 1000);
+      }
+      startTimer();
+    </script>
+  </body>
+</html>

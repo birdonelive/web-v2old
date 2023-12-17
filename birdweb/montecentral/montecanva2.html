@@ -1,0 +1,75 @@
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Monte Drawing</title>
+    <h1>hello welcome to Monte's canva</h1>
+    <a href="./">Go Back To Home Page</a>
+    <p>(works in both PC and mobile)</p>
+  </head>
+  <body>
+    <canvas id="drawing" width="500" height="500"></canvas>
+    <button id="save">Save</button>
+
+    <script>
+      const canvas = document.getElementById("drawing");
+      const context = canvas.getContext("2d");
+      let isDrawing = false;
+      let lastX = 0;
+      let lastY = 0;
+
+      canvas.addEventListener("mousedown", function(e) {
+        isDrawing = true;
+        lastX = e.offsetX;
+        lastY = e.offsetY;
+      });
+
+      canvas.addEventListener("mousemove", function(e) {
+        if (isDrawing) {
+          context.beginPath();
+          context.moveTo(lastX, lastY);
+          context.lineTo(e.offsetX, e.offsetY);
+          context.stroke();
+          lastX = e.offsetX;
+          lastY = e.offsetY;
+        }
+      });
+
+      canvas.addEventListener("mouseup", function() {
+        isDrawing = false;
+      });
+
+      canvas.addEventListener("mouseout", function() {
+        isDrawing = false;
+      });
+
+      // Add touch event handlers for mobile devices
+      canvas.addEventListener("touchstart", function(e) {
+        isDrawing = true;
+        lastX = e.touches[0].clientX - canvas.offsetLeft;
+        lastY = e.touches[0].clientY - canvas.offsetTop;
+      });
+
+      canvas.addEventListener("touchmove", function(e) {
+        if (isDrawing) {
+          context.beginPath();
+          context.moveTo(lastX, lastY);
+          context.lineTo(e.touches[0].clientX - canvas.offsetLeft, e.touches[0].clientY - canvas.offsetTop);
+          context.stroke();
+          lastX = e.touches[0].clientX - canvas.offsetLeft;
+          lastY = e.touches[0].clientY - canvas.offsetTop;
+        }
+      });
+
+      canvas.addEventListener("touchend", function() {
+        isDrawing = false;
+      });
+
+      const saveButton = document.getElementById("save");
+      saveButton.addEventListener("click", function() {
+        const image = canvas.toDataURL();
+        window.open(image, "Drawing");
+      });
+    </script>
+  </body>
+</html>
+

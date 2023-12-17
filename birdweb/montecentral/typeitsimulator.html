@@ -1,0 +1,49 @@
+
+<link rel="stylesheet" href="style.css">
+<!-- Create a button to enable typing -->
+<button id="enable-typing">Enable Typing</button>
+
+<!-- Create a counter to display the number of times "ampion" has been typed -->
+<div id="typing-counter">0</div>
+
+<!-- Add some JavaScript to handle the button click and the typing events -->
+<script>
+  // Get a reference to the button and the counter
+  var button = document.getElementById('type-ampion');
+  var counter = document.getElementById('typing-counter');
+  
+  // Set up a flag to track whether typing is enabled
+  var typingEnabled = false;
+  
+  // Handle the button click event
+  button.addEventListener('click', function() {
+    // Toggle the typingEnabled flag
+    typingEnabled = !typingEnabled;
+    
+    // Enable or disable the typing based on the flag
+    if (typingEnabled) {
+      enableTyping();
+    } else {
+      disableTyping();
+    }
+  });
+  
+  // Set up a function to enable the typing
+  function enableTyping() {
+    // Add a keydown event listener to the document
+    document.addEventListener('keydown', function(e) {
+      // Check if the user has typed the word "champion"
+      if (e.target.value === 'ampion') {
+        // Increment the counter
+        counter.innerHTML = parseInt(counter.innerHTML) + 1;
+      }
+    });
+  }
+  
+  // Set up a function to disable the typing
+  function disableTyping() {
+    // Remove the keydown event listener from the document
+    document.removeEventListener('keydown', function(e) {});
+  }
+</script>
+          

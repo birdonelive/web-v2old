@@ -1,0 +1,21 @@
+<div id="display-text"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function getText() {
+        var apiUrl = 'https://phuwatthepro.github.io/montetesting/realcomment/';
+        $.ajax({
+            type: "GET",
+            url: apiUrl,
+            success: function (response) {
+                $("#display-text").text(response.text);
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+                alert("An error occurred while retrieving the text. Please try again later.");
+            }
+        });
+    }
+
+    getText();
+</script>

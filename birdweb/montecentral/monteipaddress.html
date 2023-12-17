@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <div class="square2"></div>
+    <div class="center">
+      <div class="square">
+  <link rel="stylesheet" href="style.css">
+  <title>IP Address Display</title>
+  <h1>Monte's Your IP address Checker!</h1>
+  <a href="./">Go Back To Home Page</a>
+  <h1>your ip address</h1>
+  <p id="ip-address">Your IP address is:</p>
+</head>
+<body>
+  <div id="ip-address"></div>
+  <script>
+    fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+        const ip = data.ip;
+        document.getElementById('ip-address').innerHTML = `Your IP address is: ${ip}`;
+      });
+  </script>
+</body>
+</html>
+

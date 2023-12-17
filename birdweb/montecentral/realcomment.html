@@ -1,0 +1,27 @@
+<form id="text-form">
+  <label for="text">Enter your text:</label>
+  <input type="text" id="text" name="text">
+  <input type="button" onclick="submitText()" value="Submit">
+</form>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  function submitText() {
+    var text = document.getElementById("text").value;
+    var apiUrl = 'https://phuwatthepro.github.io/montetesting/commentviewer';
+
+    $.ajax({
+      type: "POST",
+      url: apiUrl,
+      data: { text: text },
+      success: function (response) {
+        console.log(response);
+        alert("Text submitted successfully!");
+      },
+      error: function (xhr, status, error) {
+        console.log(error);
+        alert("An error occurred while submitting the text. Please try again later.");
+      }
+    });
+  }
+</script>

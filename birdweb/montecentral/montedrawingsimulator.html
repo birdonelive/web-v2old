@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Draw on the Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Monte Drawing Simulator!</h1>
+    <h3>Draw a line!</h3>
+    <h5>(draw a line counter is saved!)</h5>
+    <style>
+      #canvas {
+        border: 1px solid black;
+      }
+      #counter {
+        font-size: 36px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div id="counter">0</div>
+    <script>
+      let count = 0;
+      let canvas = document.getElementById("canvas");
+      let context = canvas.getContext("2d");
+      let isDrawing = false;
+      let lastX = 0;
+      let lastY = 0;
+
+      canvas.addEventListener("mousedown", function(event) {
+        isDrawing = true;
+        lastX = event.offsetX;
+        lastY = event.offsetY;
+      });
+
+      canvas.addEventListener("mousemove", function(event) {
+        if (isDrawing) {
+          let currentX = event.offsetX;
+          let currentY = event.offsetY;
+          context.beginPath();
+          context.moveTo(lastX, lastY);
+          context.lineTo(currentX, currentY);
+          context.stroke();
+          lastX = currentX;
+          lastY = currentY;
+          count += 1;
+          document.getElementById("counter").innerHTML = count;
+          setCookie("counter", count, 365);
+        }
+      });
+
+      canvas.addEventListener("mouseup", function(event) {
+        isDrawing = false;
+      });
+
+      function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+      }
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+      }
+      window.onload = function() {
+        let storedValue = getCookie("counter");
+        if (storedValue) {
+          count = parseInt(storedValue);
+          document.getElementById("counter").

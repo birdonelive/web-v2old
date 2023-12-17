@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="style.css">
+
+Guys i dunno. do not expect anything cool
+
+<!-- does not work -->
+<?php
+  // Generate a random string of length 10
+  function generate_random_string() {
+    $random_string = '';
+    for ($i = 0; $i < 10; $i++) {
+      $random_string .= chr(mt_rand(32, 126));
+    }
+    return $random_string;
+  }
+  $random_string = generate_random_string();
+?>
+
+<!-- Display the random string on the page -->
+<p><?php echo $random_string; ?></p>
