@@ -16,5 +16,3 @@ Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed 
 
 <hr>
 <sub id="ftr">&copy; BirdOne - v2 Alpha 3</sub>
-<meta http-equiv="interest-cohort" content="unsafe-none">
-<link rel="stylesheet" href="style.css">

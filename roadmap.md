@@ -12,13 +12,3 @@
 🚧 Bird Web Homepage\
 ⏳ Monte Central\
 ⏳ Ampion.tk
-
-
-<sub id="ftr"></sub>
-<script>
-  fetch('/src/version')
-    .then(response => response.text())
-    .then(content => {
-      document.getElementById('ftr').innerHTML = content;
-    });
-</script>
