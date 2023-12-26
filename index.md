@@ -12,7 +12,7 @@ MonteSmart is an online learning community that teaches cool stuff about technol
 
 ## Bird Web 
 Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed BirdWeb and connects to each other, the two sites make a great pair for your browsing needs.<br>
-**Bird Web is temporarily closed.**
+<mark><h3>Bird Web is now open! <a href="./birdweb/">Try it now</a></h3></mark>
 
 <hr>
 <sub id="ftr">&copy; BirdOne - v2 Alpha 3</sub>
