@@ -1,5 +1,8 @@
 # Release Logs
 
+v2.0.0 Alpha 4 - 26 December 2023
+- **OPENED BIRD WEB 🔥**
+
 v2.0.0 Alpha 3 - 15 December 2023
 - Added Release Logs and 404 pages
 - Removed some unneccessary stuff
