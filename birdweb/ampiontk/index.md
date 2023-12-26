@@ -19,20 +19,17 @@
 | 🪴 Ampion pArk             | [https://ampion.tk/park](/park)           |
 | 📆 Ampion Calendar         | [https://ampion.tk/calendar](/calendar)   |
 | 📖 Ampion Stories          | [https://ampion.tk/stories](/stories)     |
-| 🦟 Mosquito Central        | [https://ampion.tk/moshub](/moshub)       |
-| 🧌 Ampion GiantSim         | [https://ampion.tk/gs](/gs)               |
+| 🦟 Mosquito Central        | [https://ampion.tk/moshub](/moshub)       |              |
 | ▶️ Ampion YouTube          | [https://ampion.tk/youtube](/youtube)     |
 | 🗳️ Ampion Vote             | [https://ampion.tk/vote](/vote)           |
 | 📕 Ampion History          | [https://ampion.tk/history](/history)     |
 | 📊 Ampion Stats            | [https://ampion.tk/stats](/stats)         |
-| 🎥 Ampion Films            | *Coming this February*                    |
+| 🎥 Ampion Films            | *Coming Feb 2024*                    |
 | 🎮 Ampion Games            | [https://ampion.tk/games](/games)         |
-| 🌱 Touch Grass Simulator   | *Coming this February*                    |
+| 🌱 Touch Grass Simulator   | *Coming Feb 2024*                    |
 
 
 # Ampion Information Center
 
-- The website has now hit 700 views! Thanks!
-- This website has hit 100 views! Thank you!
-- Now you can see Giant Ampion, with Ampion GiantSim! [Start GiantSim Now](/gs)
+- Ampion.tk has reopened with Bird Web!
  
