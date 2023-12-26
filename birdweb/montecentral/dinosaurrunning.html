@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <style>
+      /* Add some style to the page */
+      body {
+        background-color: lightblue;
+      }
+      
+      #circle {
+        /* Add some style to the circle */
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: red;
+        position: absolute;
+      }
+      
+      #square {
+        /* Add some style to the square */
+        width: 50px;
+        height: 50px;
+        background-color: green;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="circle"></div>
+    <div id="square"></div>
+    
+    <script>
+      // Get the circle and square elements
+      var circle = document.getElementById('circle');
+      var square = document.getElementById('square');
+      
+      // Set the initial position of the circle and square
+      circle.style.left = '50px';
+      circle.style.top = '50px';
+      square.style.left = '100px';
+      square.style.top = '0px';
+      
+      // Set the movement speed of the square
+      var speed = 5;
+      
+      // Set the game over flag to false
+      var gameOver = false;
+      
+      // Set up the game loop
+      setInterval(function() {
+        // If the game is over, do nothing
+        if (gameOver) {
+          return;
+        }
+        
+        // Update the position of the square
+        var x = parseInt(square.style.left);
+        square.style.left = (x + speed) + 'px';
+        
+        // Check if the square has hit the circle
+        var x1 = parseInt(circle.style.left);
+        var y1 = parseInt(circle.style.top);
+        var x2 = x;
+        var y2 = parseInt(square.style.top);
+        if (Math.abs(x1 - x2) < 50 && Math.abs(y1 - y2) < 50) {
+          gameOver = true;
+          alert('Game over!');
+        }
+      }, 10);
+      
+      // Set up the event listener for when the user clicks on the page
+      document.addEventListener('click', function(event) {
+        // Update the position of the circle
+        circle.style.left = event.clientX + 'px';
+        circle.style.top = event.clientY + 'px';
+      });
+    </script>
+  </body>
+</html>

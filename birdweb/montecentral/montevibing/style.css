@@ -1,0 +1,123 @@
+@font-face {font-family: ggampion; src: url(/birdweb/montecentral/gg_ampion-v1.ttf);}
+
+body {font-family: ggampion;}
+
+/* Font styling */
+
+h1 {font-size: 3em;}
+
+h2 {font-size: 2.25em;}
+
+h3 {font-size: 1.75em;}
+
+p {font-size: 1.5em;}
+
+/* Link coloring */
+
+a:link {color: blue;}
+
+a:visited {color: blue;}
+
+a:hover {color: blue;}
+
+a:active {color: blue;}
+
+      .square2 {
+      background-color: white;
+      width: 1000px;
+      height: 150px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: -1;
+      border-radius: 20px;
+      }
+       a {
+      text-align: center;
+      display: block;
+      }
+       h1 {
+      text-align: center;
+      }
+       .center {
+      margin: auto;
+      display: block;
+      width: 800px;
+      height: 2000;
+      border-radius: 20px;
+      }
+      .square {
+      background-color: white;
+      width: 800px;
+      height: 2000px;
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px;
+      }
+      h2 {
+      text-align: center;
+      }
+       td {
+      text-align: center;
+      }
+       tr {
+      text-align: center;
+      }
+       th {
+      text-align: center;
+      }
+       h3 {
+      text-align: center;
+      }
+       ul {
+      text-align: center;
+      }
+       li {
+      text-align: center;
+}
+#target { 
+position: absolute; 
+width: 50px;
+ height: 50px;
+ background-color: red
+; border-radius: 50%;
+ }
+#circle { 
+width: 100px; height:
+ 100px; border-radius: 50%;
+ background-color: black;
+ cursor: pointer; margin:
+ auto; display: block;
+ }
+.container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ } 
+.choices { 
+display: flex;v
+ } 
+.choice { 
+height: 100px; 
+width: 100px; 
+border: 1px solid black; 
+display: flex; justify-content: center;
+ align-items: center; 
+font-size: 24px;
+ cursor: pointer;
+ background-color: white;
+ }
+ .choice:hover { 
+background-color: lightgray;
+ }
+ .result {
+ margin-top: 20px; 
+font-size: 24px;
+ }
+ .scores { 
+margin-top: 20px;
+ font-size: 18px;
+ }

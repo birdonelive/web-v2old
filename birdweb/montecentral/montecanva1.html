@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="style.css">
+
+<h1>hello welcome to 
+  Monte's canva</h1>
+<a href="./">Go Back To Home Page</a>
+(only works in pc)
+<!-- Create a canvas element in the HTML -->
+<canvas id="drawing" width="800" height="800"></canvas>
+
+<!-- Add some style to the canvas -->
+<style>
+  canvas {
+    border: 1px solid black;
+  }
+</style>
+
+<!-- Add some JavaScript to enable drawing -->
+<script>
+  // Get a reference to the canvas element
+  var canvas = document.getElementById('drawing');
+  
+  // Get the canvas context, which is used to draw on the canvas
+  var context = canvas.getContext('2d');
+  
+  // Set up mouse events for drawing
+  var drawing = false;
+  var lastX = 0;
+  var lastY = 0;
+  var currentX = 0;
+  var currentY = 0;
+  
+  canvas.addEventListener('mousedown', function(e) {
+    drawing = true;
+    lastX = e.offsetX;
+    lastY = e.offsetY;
+  });
+  
+  canvas.addEventListener('mouseup', function(e) {
+    drawing = false;
+  });
+  
+  canvas.addEventListener('mousemove', function(e) {
+    if (drawing) {
+      currentX = e.offsetX;
+      currentY = e.offsetY;
+      
+      context.beginPath();
+      context.moveTo(lastX, lastY);
+      context.lineTo(currentX, currentY);
+      context.stroke();
+      
+      lastX = currentX;
+      lastY = currentY;
+    }
+  });
+</script>

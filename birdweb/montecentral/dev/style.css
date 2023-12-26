@@ -1,0 +1,185 @@
+/* Add GG Ampion Font */
+@font-face {
+  font-family: ggampion;
+  src: url(../gg_ampion-v1.ttf);
+}
+
+body {
+  font-family: ggampion;
+  text-align: center; /* Center-align the content within the body */
+  margin: 0; /* Remove default margin for body */
+  padding: 0; /* Remove default padding for body */
+}
+
+/* Font styling */
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+/* Link coloring */
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: blue;
+}
+
+.square2 {
+  background-color: white;
+  width: 1000px;
+  height: 150px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+a {
+  display: block;
+}
+
+.center {
+  margin: auto;
+  width: 800px;
+  height: 2000px;
+  border-radius: 20px;
+}
+
+.square {
+  background-color: white;
+  width: 800px;
+  height: 2000px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+body {
+  background-image: url(../ab2.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+}
+
+h2 {
+  text-align: center;
+}
+
+td, tr, th, h3, ul, li {
+  text-align: center;
+}
+
+#target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choices {
+  display: flex;
+}
+
+.choice1 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.choice:hover {
+  background-color: lightgray;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.scores {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+canvas {
+  border: 1px solid black;
+  margin: auto;
+  display: block;
+}
+
+#ip-address {
+  text-align: center;
+}
+
+canvasred {
+  display: block;
+}
+
+#circle1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.choice {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.textbox {
+  position: relative;
+}
+
+img.textbox {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+}

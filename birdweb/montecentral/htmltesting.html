@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-color: white;
+  }
+</style>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <h1>Monte's HTML Code Testing</h1>
+    <h3>try your html code here!
+    <p>write a html code.</p>
+      <a href='./'>go back to home page.</a>
+  </head>
+<body>
+<form>
+  <textarea id="htmlCode" rows="4" cols="50"></textarea><br><br>
+  <button type="button" onclick="renderHTML()">Submit</button>
+</form> 
+<div id="renderHere"></div>
+<script>
+function renderHTML() {
+  var htmlCode = document.getElementById("htmlCode").value;
+  document.getElementById("renderHere").innerHTML = htmlCode;
+}
+</script>
+</body>
+</html>

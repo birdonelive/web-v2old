@@ -1,0 +1,52 @@
+<html>
+  <head>
+     <div class="square2"></div>
+    <div class="center">
+      <div class="square">
+    <title>Monte Click It!</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>Monte Click It!</h1>
+    <h2>click the black circle!</h2>
+    <h3>the click counter is saved!</h3>
+    <h4>(If you leave or refresh the web page times you clicked the black circle stays the same.)</h4>
+    <a href="./">Go Back To Home Page</a>
+  </head>
+  <body>
+    <div id="circle1" onclick="incrementCounter()"></div>
+    <div id="counter">0</div>
+    <script>
+      let count = 0;
+      function incrementCounter() {
+        count += 1;
+        document.getElementById("counter").innerHTML = count;
+        setCookie("counter", count, 365);
+      }
+      function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+          var date = new Date();
+          date.setTime(date.getTime() + (days*24*60*60*1000));
+          expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+      }
+      function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+      }
+      window.onload = function() {
+        let storedValue = getCookie("counter");
+        if (storedValue) {
+          count = parseInt(storedValue);
+          document.getElementById("counter").innerHTML = count;
+        }
+      }
+    </script>
+  </body>
+</html>

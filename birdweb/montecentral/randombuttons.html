@@ -1,0 +1,129 @@
+ <link rel="stylesheet" href="style.css">
+<h1>hello welcome to random buttons!</h1>
+<h2>press f5 or refresh web page to shuffle the buttons' place</h2>
+<a href="./">Go Back To Home Page</a>
+<!-- Create a container for the buttons -->
+<div id="button-container"></div>
+
+<!-- Add some JavaScript to create the buttons -->
+<script>
+  // Get a reference to the button container
+  var container = document.getElementById('button-container');
+  
+  // Create an array of button labels
+  var labels = [
+    'ampion button 1',
+    'ampion button 2',
+    'ampion button 3',
+    'ampion button 4',
+    'ampion button 5',
+    'ampion button 6',
+    'ampion button 7',
+    'ampion button 8',
+    'ampion button 9',
+    'ampion button 10',
+    'ampion button 11',
+    'ampion button 12',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',   
+    'mah boi hehe',
+    'ohhmahgawd',
+    'Ohio',
+    'lol ampion',
+    'dayyumm so pro like jamal',
+    
+  ];
+  
+  // Shuffle the array of labels
+  labels.sort(function() { return 0.5 - Math.random() });
+  
+  // Create the buttons
+  for (var i = 0; i < labels.length; i++) {
+    var button = document.createElement('button');
+    button.innerHTML = labels[i];
+    container.appendChild(button);
+  }
+</script>

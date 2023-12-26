@@ -1,0 +1,45 @@
+<html> 
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Number Guessing Game</title>
+     <div class="square2"></div>
+    <div class="center">
+      <div class="square">
+     <h1> Monte's Number Guessing Game</h1>
+    <h2>test your luck!</h2>
+    <p>Guess a number between 1 and 10:</p>
+    <a href="./">Go Back To Home Page</a>
+  </head>
+  <body>
+    <p>Correct: <span id="correct">0</span></p>
+    <input type="text" id="guess">
+    <button id="button">Guess</button>
+    <p id="result"></p>
+
+    <script>
+      const button = document.getElementById("button");
+      const result = document.getElementById("result");
+      const correct = document.getElementById("correct");
+
+      // Get the correct counter value from localStorage
+      let correctCount = localStorage.getItem("correctCount");
+      if (correctCount == null) {
+        correctCount = 0;
+      }
+      correct.textContent = correctCount;
+
+      button.addEventListener("click", function() {
+        const guess = document.getElementById("guess").value;
+        const number = Math.floor(Math.random() * 10) + 1;
+        if (guess == number) {
+          result.textContent = "Correct!";
+          correctCount++;
+          correct.textContent = correctCount;
+          localStorage.setItem("correctCount", correctCount);
+        } else {
+          result.textContent = `Wrong! The correct number was ${number}.`;
+        }
+      });
+    </script>
+  </body>
+</html>
