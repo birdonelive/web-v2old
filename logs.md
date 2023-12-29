@@ -1,5 +1,8 @@
 # Release Logs
 
+v2.0.0 Beta 1 - 29 December 2023
+- **Fully released BirdOne.click v2**
+
 v2.0.0 Alpha 4 - 26 December 2023
 - **OPENED BIRD WEB 🔥**
 
