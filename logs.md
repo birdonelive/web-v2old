@@ -7,6 +7,11 @@
 
 <br>
 <hr>
+v2.0.0 Beta 1.2 - 31 December 2023
+
+- Fixed minor bugs in Bird Web
+
+<br>
 v2.0.0 Beta 1.1 - 29 December 2023
 
 - Fixed minor bugs in Bird Web
