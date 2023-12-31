@@ -22,7 +22,6 @@
 | 📕 Ampion History          | [https://ampion.tk/history](history)     |
 | 📊 Ampion Stats            | [https://ampion.tk/stats](stats)         |
 | 🎥 Ampion Films            | *Coming Feb 2024*                    |
-| 🎮 Ampion Games            | [https://ampion.tk/games](games)         |
 | 🌱 Touch Grass Simulator   | *Coming Feb 2024*                    |
 
 
