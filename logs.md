@@ -9,7 +9,7 @@
 <hr>
 v2.0.0 Beta 1.3 - 31 December 2023
 
-- Added some stuff
+- AMPION MEGA COUNTDOWN 2024: [birdone.click/live](/live)
 
 <br>
 v2.0.0 Beta 1.2 - 31 December 2023
