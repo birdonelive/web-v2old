@@ -4,8 +4,7 @@ Building for the future
 
 > BirdOne is a new company that combines all Bird services together into one, providing a more magical experience for our customers.
 
-> [!IMPORTANT]
-> Come with us on tonight's countdown to 2024! [Join us now](/web-v2/live)
+<h3><mark>Come with us on tonight's countdown to 2024! <a href="/web-v2/live">Join us now!</a></mark></h3>
 
 **📣 BIRDONE.CLICK V2 IS OUT!!!**
 
