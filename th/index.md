@@ -1,26 +1,18 @@
 # BirdOne
 
-Building for the future
+สร้างเพื่ออนาคต
 
-> BirdOne is a new company that combines all Bird services together into one, providing a more magical experience for our customers.
+>BirdOne เป็นบริษัทใหม่ที่รวมตัวบริการของเราทั้งหมดเข้าเป็นหนึ่งเดียว เพื่อเพิ่มความง่ายดายและความสะดวกในการใช้งาน
 
-<!--
-<h3><mark>Come with us on tonight's countdown to 2024! <a href="/web-v2/live">Join us now!</a></mark></h3>
--->
-
-(เว็บภาษาไทยจะมาเร็วๆนี้ครับ)
-
-**📣 BIRDONE.CLICK V2 IS OUT!!!**
-
-# Our Services
+# บริการของเรา
 
 ## MonteSmart
-MonteSmart is an online learning community that teaches cool stuff about technology, including AI, Python, TurboWarp and more.<br>
+MonteSmart เป็นศูนย์แบ่งปันความรู้ออนไลน์ ที่สอนเรื่อง AI, Python, TurboWarp และอื่นๆอีกมากมาย<br>
 [Join Now](https://line.me/ti/g2/ZEVrNcb76N2PQJKK2RGqskWAxkyWWKLwWsWR1w)
 
-## Bird Web 
-Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed BirdWeb and connects to each other, the two sites make a great pair for your browsing needs.<br>
-<h3><mark>Bird Web is now open! <a href="./birdweb/">Try it now</a></mark></h3>
+## Bird Web
+Ampion.tk และ Monte Central เป็นเว็บไซต์ซึ่งสามารถใช้งานระบบต่างๆ และเล่นเกมคลายเครียดได้ โดยมีระบบเชื่อมต่อเว็บไซต์ทั้งสองเข้าด้วยกัน เพื่อทำให้ประสบการณ์ของท่านดียิ่งขึ้น<br>
+**BirdWeb จะเปิดในเร็วๆนี้ เนื่องด้วยจำเป็นต้องปิดซ่อมแซมชั่วคราว**
 
 <hr>
-<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 1.3</sub>
+<sub>&copy; BirdOne - v2 Beta 2</sub>
