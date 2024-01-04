@@ -1,6 +1,6 @@
 # BirdOne
 
-[Change Language to **Thai**](/th)
+[Change Language to **Thai/ไทย**](/th)
 
 Building for the future
 
