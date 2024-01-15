@@ -24,4 +24,4 @@ Ampion.tk และ Monte Central เป็นเว็บไซต์ซึ่�
 [Check it out](/logs)
 
 <hr>
-<sub>&copy; BirdOne - v2 Beta 3</sub>
+<sub>&copy; BirdOne - v2 Beta 3.1</sub>
