@@ -16,5 +16,12 @@ MonteSmart เป็นศูนย์แบ่งปันความรู้
 Ampion.tk และ Monte Central เป็นเว็บไซต์ซึ่งสามารถใช้งานระบบต่างๆ และเล่นเกมคลายเครียดได้ โดยมีระบบเชื่อมต่อเว็บไซต์ทั้งสองเข้าด้วยกัน เพื่อทำให้ประสบการณ์ของท่านดียิ่งขึ้น<br>
 <h3><mark>Bird Web เปิดแล้ววันนี้ <a href="./birdweb/">ลองเลย</a></mark></h3>
 
+## BPSC
+
+# เรื่องอื่นๆ
+
+## Release Logs
+[Check it out](/logs)
+
 <hr>
-<sub>&copy; BirdOne - v2 Beta 2</sub>
+<sub>&copy; BirdOne - v2 Beta 3</sub>
