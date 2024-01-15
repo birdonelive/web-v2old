@@ -32,4 +32,4 @@ Official page for the BirdOne Photoshoot Contest, the most popular photoshoot co
 [Check it out](/logs)
 
 <hr>
-<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 3.1</sub>
+<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 3.2</sub>
