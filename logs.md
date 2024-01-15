@@ -1,6 +1,17 @@
 # Release Logs
 
+## UNDER CONSTRUCTION
+
 <br>
+
+<details>
+  <summary>v2.0.0 Beta 1</summary>
+<br>
+<hr>
+v2.0.0 Beta 2 - 1 January 2024
+<hr>
+</details>
+
 
 <details>
   <summary>v2.0.0 Beta 1</summary>

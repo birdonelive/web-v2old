@@ -1,6 +1,6 @@
 # BirdOne
 
-[Change Language to **Thai**](/th)
+[Change Language to **Thai/ไทย**](/th)
 
 Building for the future
 
@@ -22,5 +22,14 @@ MonteSmart is an online learning community that teaches cool stuff about technol
 Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed BirdWeb and connects to each other, the two sites make a great pair for your browsing needs.<br>
 <h3><mark>Bird Web is now open! <a href="./birdweb/">Try it now</a></mark></h3>
 
+## BPSC
+Official page for the BirdOne Photoshoot Contest, the most popular photoshoot contest of Worlds FRVR!\
+[Check it out](/bpsc)
+
+# Other stuff
+
+## Release Logs
+[Check it out](/logs)
+
 <hr>
-<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 2</sub>
+<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 3.1</sub>
