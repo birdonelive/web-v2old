@@ -1,0 +1,31 @@
+/* Light mode */
+@media (prefers-color-scheme: light) { body { background-color: white; color: black; } }
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) { body { background-color: black; color: white; } }
+
+@font-face { font-family: comicsans; src: url("https://birdone.click/web-v2/birdweb/ampiontk/comic_sans.ttf"); } * { font-family: cms; }
+
+a:link {
+  color: blue; 
+  background-color: transparent; 
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
