@@ -10,3 +10,5 @@ MonteSmart is an online education center that is **free for all**. We accept any
 We teach useful information about technology, from website building to AI usage.
 
 [Join MonteSmart Now](https://montesmart.birdone.click)
+
+<link rel="stylesheet" href="/src/style.css">

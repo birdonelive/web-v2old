@@ -17,3 +17,5 @@
 |    ✅   	| Ampion.tk         	|
 |    ✅   	| Monte Central     	|
 |        	|                   	|
+
+<link rel="stylesheet" href="/src/style.css">

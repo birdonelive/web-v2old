@@ -4,7 +4,6 @@
 🏠 [Homepage](index)<br>
 👨‍💻 [~~MonteSmart~~](montesmart)<br>
 🦜 [Bird Web](birdweb)<br>
-📸 [~~BPSC Contest~~](bpsc)<br>
 
 # BirdOne Website v2
 ⏫ [~~v2 Upgrade~~](v2/)<br>
@@ -18,3 +17,5 @@
 
 ## BirdTech
 💻 [~~BirdTech~~](birdtech/)
+
+<link rel="stylesheet" href="/src/style.css">
