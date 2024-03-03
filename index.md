@@ -12,7 +12,7 @@ Building for the future
 <h3><mark>Come with us on tonight's countdown to 2024! <a href="/web-v2/live">Join us now!</a></mark></h3>
 -->
 
-**📣 BIRDONE.CLICK V2 IS OUT!!!**
+**📣 • BIRDONE.CLICK V2 IS OUT!!!**
 
 # Our Services
 
@@ -25,6 +25,6 @@ Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed 
 <h3><mark>Bird Web is now open! <a href="./birdweb/">Try it now</a></mark></h3>
 
 <hr>
-<sub id="ftr">&copy; BirdOne 2023 - v2 Beta 4</sub>
+<sub id="ftr">&copy; BirdOne 2024 - v2 Beta 5</sub>
 
 <link rel="stylesheet" href="/src/style.css">
