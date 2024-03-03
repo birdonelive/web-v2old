@@ -12,7 +12,7 @@ Building for the future
 <h3><mark>Come with us on tonight's countdown to 2024! <a href="/web-v2/live">Join us now!</a></mark></h3>
 -->
 
-**📣 BIRDONE.CLICK V2 IS OUT!!!**
+**📣 • BIRDONE.CLICK V2 IS OUT!!!**
 
 # Our Services
 
