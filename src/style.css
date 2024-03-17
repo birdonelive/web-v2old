@@ -2,26 +2,27 @@
 
 body {
   background-color: #222;
-  color: #fff
+  color: #fff;
+  margin: 2%;
 }
 
 .col98 {
   float: left;
   width: 28%;
   padding: 10px;
-  margin: 2%;
+  margin: 2% 0 2% 3%;
   background-color: #666;
   color: #fff;
+  border-radius: 10%
 }
+  
+.padd98 {
+  width: 2%;
+  margin:2%;
+ }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .col98 {
-    width: 100%;
-  }
 }
