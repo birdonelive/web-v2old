@@ -4,3 +4,24 @@ body {
   background-color: #222;
   color: #fff
 }
+
+.col98 {
+  float: left;
+  width: 28%;
+  padding: 10px;
+  margin: 2%;
+  background-color: #666;
+  color: #fff;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col98 {
+    width: 100%;
+  }
+}
