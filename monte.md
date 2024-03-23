@@ -9,6 +9,8 @@
 
 ### March 23rd
 
+**22:01** | Monte was last seen online just a few minutes ago. We suspect it is a family member.
+
 **21:55** | The website is made for live coverage regarding Monte's death.
 
 **21:48** | A follow-up update is made. The update tells that Monte most likely died at around 19:30 Thailand Time from a parachute failure.

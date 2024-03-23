@@ -1,3 +1,6 @@
 {
-  "liveServer.settings.port": 8888
+  "liveServer.settings.port": 8888,
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
+  ]
 }

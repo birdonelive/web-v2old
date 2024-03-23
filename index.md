@@ -25,6 +25,6 @@ Enjoy web games and online programs at Ampion.tk and Monte Central. Now renamed 
 <h3><mark>Bird Web is now open! <a href="./birdweb/">Try it now</a></mark></h3>
 
 <hr>
-<sub id="ftr">&copy; BirdOne 2024 - v2 Beta 6vve</sub>
+<sub id="ftr">&copy; BirdOne 2024 - v2 Beta 6.1</sub>
 
 <link rel="stylesheet" href="/src/style.css">
