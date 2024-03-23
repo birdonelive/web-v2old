@@ -2,7 +2,7 @@
 
 <style>
   @import url("https://birdone.click/web-v2/src/style.css");
-  * {background-color: #111; color:#fff !important;}
+  * {background-color: #111 !important; color:#fff !important;}
 </style>
 
 # Live Coverage for Monte's Death
