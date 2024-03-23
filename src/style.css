@@ -7,13 +7,14 @@ body {
 }
 
 .col98 {
+  align: center;
   float: left;
-  width: 28%;
+  width: 30%;
   padding: 10px;
-  margin: 2%;
+  margin: 10%;
   background-color: #666;
   color: #fff;
-  border-radius: 10%
+  border-radius: 2%
 }
   
 .padd98 {
