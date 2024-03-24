@@ -3,6 +3,7 @@
 <style>
   @import url("https://birdone.click/web-v2/src/style.css");
   * {background-color: #111 !important; color:#fff !important;}
+  .red {color:#f33 !important; font-weight:bold !important;
 </style>
 
 # Live Coverage for Monte's Death
@@ -10,19 +11,15 @@ All times are in Thailand Time (GMT+7).
 
 ### March 24th
 
-**11:44** | LATEST: Monte has recieved an attack threat from Yoshi, a BirdOne member who is speculated to be responsible for Monte's disappearance. Further information on this will follow soon.
-
-**11:38** | It is now uncertain where Monte currently is or if he is still alive after, according to Monte, being lost in the woods for about 12 hours following a parachute failure causing him to land in an unknown location, presumably within China looking from the flight path of where Monte jumped off from.
-
-**10:59** | Monte has seemed to disappear again, seemingly from a lack of internet data remaining.
-
-**10:37** | It is confirmed that Monte did not die. However, a parachute failure did happen, and the cause of inactivity was due to Monte being stuck in a forest.
-
-**06:18** | Monte has returned to the Discord channel after hours of inactivity.
-
-**02:48** | Monte's presence has disappeared again.
-
-**00:12** | Monte seems to have landed in the middle of a forest in China.
+| Time | Information |
+|-|-|
+| **11:44** | <span class="red">LATEST</span>: Monte has recieved an attack threat from Yoshi, a BirdOne member who is speculated to be responsible for Monte's disappearance. Further information on this will follow soon. |
+| **11:38** | It is now uncertain where Monte currently is or if he is still alive after, according to Monte, being lost in the woods for about 12 hours following a parachute failure causing him to land in an unknown location, presumably within China looking from the flight path of where Monte jumped off from. |
+| **10:59** | Monte has seemed to disappear again, seemingly from a lack of internet data remaining. |
+| **10:37** | It is confirmed that Monte did not die. However, a parachute failure did happen, and the cause of inactivity was due to Monte being stuck in a forest. |
+| **06:18** | Monte has returned to the Discord channel after hours of inactivity. |
+| **02:48** | Monte's presence has disappeared again. |
+| **00:12** | Monte seems to have landed in the middle of a forest in China. |
 
 ### March 23rd
 
