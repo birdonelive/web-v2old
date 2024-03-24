@@ -13,8 +13,9 @@ All times are in Thailand Time (GMT+7).
 
 | Time | Information |
 |-|-|
+| **12:29** | Monte is seen online on Discord. |
 | **12:21** | Due to the instabilities from Monte, Ampion is appointed CEO for the current time. |
-| **12:19** | <span class="red">LATEST:</span> Monte seems to be unreachable following multiple contact attempts. One call in particular, however, did not cut off due to bandwidth limits, but rather due to a deliberate declining of the call. This means that there is a person at the other end of the call, and either translates to Monte still being alive or having been assassinated or kidnapped. |
+| **12:19** | Monte seems to be unreachable following multiple contact attempts. One call in particular, however, did not cut off due to bandwidth limits, but rather due to a deliberate declining of the call. This means that there is a person at the other end of the call, and either translates to Monte still being alive or having been assassinated or kidnapped. |
 | **12:08** | The Board will now attempt to contact Monte once more. |
 | **11:52** | Monte makes another appearance online. |
 | **11:44** | <span class="red">BREAKING:</span> Monte has recieved an attack threat from Yoshi, a BirdOne member who is speculated to be responsible for Monte's disappearance. Further information on this will follow soon. |
