@@ -13,6 +13,7 @@ All times are in Thailand Time (GMT+7).
 
 | Time | Information |
 |-|-|
+| **12:42** | The suspection is debunked after Ampion turned on his camera and showed that he is in a car. |
 | **12:40** | We hear sounds of Monte from Ampion on a voice call. We suspect he was kidnapped. |
 | **12:34** | Yoshi denies any allegations and says that it was Monte's own intention to jump down a plane. |
 | **12:32** | The Board Members will now do an investigation against Yoshi. |
