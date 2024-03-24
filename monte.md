@@ -6,7 +6,7 @@
   .red {color:#f33 !important; font-weight:bold !important;
 </style>
 
-# Live Coverage for Monte's Death
+# Live Coverage for Monte's Disappearance
 All times are in Thailand Time (GMT+7).
 
 ### March 24th
