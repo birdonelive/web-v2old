@@ -13,7 +13,9 @@ All times are in Thailand Time (GMT+7).
 
 | Time | Information |
 |-|-|
-| **11:44** | <span class="red">LATEST</span>: Monte has recieved an attack threat from Yoshi, a BirdOne member who is speculated to be responsible for Monte's disappearance. Further information on this will follow soon. |
+| **12:08** | The Board will now attempt to contact Monte once more. |
+| **11:52** | <span class="red">LATEST:</span> Monte makes another appearance online. |
+| **11:44** | <span class="red">BREAKING:</span> Monte has recieved an attack threat from Yoshi, a BirdOne member who is speculated to be responsible for Monte's disappearance. Further information on this will follow soon. |
 | **11:38** | It is now uncertain where Monte currently is or if he is still alive after, according to Monte, being lost in the woods for about 12 hours following a parachute failure causing him to land in an unknown location, presumably within China looking from the flight path of where Monte jumped off from. |
 | **10:59** | Monte has seemed to disappear again, seemingly from a lack of internet data remaining. |
 | **10:37** | It is confirmed that Monte did not die. However, a parachute failure did happen, and the cause of inactivity was due to Monte being stuck in a forest. |
@@ -23,14 +25,11 @@ All times are in Thailand Time (GMT+7).
 
 ### March 23rd
 
-**23:10** | Monte claims that his flight was chased by fighter jets after a terrorist attack onboard.
-
-**22:58** | Monte has been confirmed to have landed in China.
-
-**22:01** | Monte was last seen online just a few minutes ago. We suspect it is a family member.
-
-**21:55** | The website is made for live coverage regarding Monte's death.
-
-**21:48** | A follow-up update is made. The update tells that Monte most likely died that around 19:30 Thailand Time from a parachute failure.
-
-**21:20** | The Board announces the death of Sir Monte.
+| Time | Information |
+|-|-|
+| **23:10** | Monte claims that his flight was chased by fighter jets after a terrorist attack onboard. |
+| **22:58** | Monte has been confirmed to have landed in China. |
+| **22:01** | Monte was last seen online just a few minutes ago. We suspect it is a family member. |
+| **21:55** | The website is made for live coverage regarding Monte's death. |
+| **21:48** | A follow-up update is made. The update tells that Monte most likely died that around 19:30 Thailand Time from a parachute failure. |
+| **21:20** | The Board announces the death of Sir Monte. |
