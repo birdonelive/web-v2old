@@ -13,6 +13,7 @@ All times are in Thailand Time (GMT+7).
 
 | Time | Information |
 |-|-|
+| **12:34** | Yoshi denies any allegations and says that it was Monte's own intention to jump down a plane. |
 | **12:32** | The Board Members will now do an investigation against Yoshi. |
 | **12:29** | <span class="red">LATEST:</span> Monte is seen online on Discord. |
 | **12:21** | Due to the instabilities from Monte, Ampion is appointed CEO for the current time. |
