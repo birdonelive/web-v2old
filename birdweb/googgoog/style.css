@@ -4,7 +4,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) { body { background-color: black; color: white; } }
 
-@font-face { font-family: comicsans; src: url("https://birdone.click/web-v2/birdweb/ampiontk/comic_sans.ttf"); } * { font-family: cms; }
+@font-face { font-family: cms; src: url("https://birdone.click/web-v2/birdweb/ampiontk/comic_sans.ttf"); } * { font-family: cms; }
 
 a:link {
   color: blue; 
